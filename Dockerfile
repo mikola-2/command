@@ -7,5 +7,5 @@ RUN mkdir /home/seluser/Downloads
 RUN ls -l /home/seluser
 
 # Set permission to folder Downloads
-RUN chmod -R 777 Downloads
+RUN chmod -R 777 /home/seluser/Downloads
 RUN ls -l /home/seluser
