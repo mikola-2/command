@@ -1,4 +1,4 @@
-FROM selenium/standalone-firefox:latest
+FROM selenium/standalone-firefox-debug:latest
 
 MAINTAINER Nikolay Kudryashov mikola-2@yandex.ru
 
